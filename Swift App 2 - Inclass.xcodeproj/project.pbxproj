@@ -297,6 +297,7 @@
 				FC09F7831D7E3F5600EF330F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
