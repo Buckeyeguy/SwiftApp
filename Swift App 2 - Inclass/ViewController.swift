@@ -18,9 +18,9 @@ class ViewController: UIViewController {
     @IBAction func button1Tapped(_ sender: AnyObject) {
         
         print("Button Tapped")
-        tapCount=tapCount+1
+        tapCount=tapCount+10
         
-        if tapCount >= 10 {
+        if tapCount >= 150 {
             myLabel.text="Enough, okay?"
         }
     }
