@@ -19,8 +19,9 @@ class ViewController: UIViewController {
     
     @IBAction func button1Tapped(_ sender: AnyObject) {
         
-        print(text1.text!)
-        print(text2.text!)
+        myLabel.text = String(Double(text2.text!)! + Double(text1.text!)!)
+      
+      
     }
 
     override func viewDidLoad() {
