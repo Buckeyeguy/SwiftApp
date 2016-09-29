@@ -19,8 +19,9 @@ class ViewController: UIViewController {
     
     @IBAction func button1Tapped(_ sender: AnyObject) {
         
+    
         // myLabel.text = String(Double(text2.text!)! + Double(text1.text!)!)
-        myLabel.text = "Answer is...\(Double(text2.text!)! + Double(text1.text!)!)"
+     myLabel.text = "Answer is...\(Double(text2.text!)! + Double(text1.text!)!)"
         
 
     }
